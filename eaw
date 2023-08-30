@@ -1,6 +1,6 @@
 
 --// make
-local velocity = Instance.new("ScreenGui")
+local n1san1ware = Instance.new("ScreenGui")
 local hold = Instance.new("Frame")
 local bg = Instance.new("Frame")
 local scroll = Instance.new("ScrollingFrame")
@@ -72,11 +72,11 @@ spawn(function()
 end)
 
 --// define
-velocity.Name = "Velocity"
-velocity.Parent = game:GetService("CoreGui")
+n1san1ware.Name = "n1san1ware"
+n1san1ware.Parent = game:GetService("CoreGui")
 
 hold.Name = "hold"
-hold.Parent = velocity
+hold.Parent = n1san1ware
 hold.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 hold.BackgroundTransparency = 1.000
 hold.BorderSizePixel = 0
@@ -133,7 +133,7 @@ name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 name.BackgroundTransparency = 1.000
 name.Size = UDim2.new(-3.5, 300, 1, 0)
 name.Font = Enum.Font.RobotoMono
-name.Text = "Velocity																														"
+name.Text = "n1san1ware																														"
 name.TextColor3 = Color3.fromRGB(255, 255, 255)
 name.TextSize = 24.000
 name.TextXAlignment = Enum.TextXAlignment.Left
@@ -292,7 +292,7 @@ end
 local getasset = getsynasset or getcustomasset --// Use this for custom images
 
 close.MouseButton1Click:Connect(function()
-    velocity:Destroy()
+    n1san1ware:Destroy()
 end)
 
 mini.MouseButton1Click:Connect(function()
